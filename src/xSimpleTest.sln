@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F9C59744-6291-4902-9470-5A5B92E4AE49}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B78A40C3-FCF6-42EF-9BC8-757C27E60395}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{54C918D3-F217-460D-B0B9-C29A970C9A42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{B01F33CA-A578-4AC9-93A3-DEB5EC1DA836}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B266A10D-91B9-4388-8A98-D0A70F213F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyHelpers", "shared\TinyHelpers\TinyHelpers.csproj", "{34EC53A4-CD12-4488-8F30-558CD2FCAC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applications", "application\Applications\Applications.csproj", "{BE1930CF-278F-4DFD-A02A-332E9C17057C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "test\Tests\Tests.csproj", "{E79C820E-0D24-4846-9719-61BE851870EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34EC53A4-CD12-4488-8F30-558CD2FCAC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34EC53A4-CD12-4488-8F30-558CD2FCAC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34EC53A4-CD12-4488-8F30-558CD2FCAC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34EC53A4-CD12-4488-8F30-558CD2FCAC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1930CF-278F-4DFD-A02A-332E9C17057C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1930CF-278F-4DFD-A02A-332E9C17057C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1930CF-278F-4DFD-A02A-332E9C17057C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1930CF-278F-4DFD-A02A-332E9C17057C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79C820E-0D24-4846-9719-61BE851870EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79C820E-0D24-4846-9719-61BE851870EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79C820E-0D24-4846-9719-61BE851870EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79C820E-0D24-4846-9719-61BE851870EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54C918D3-F217-460D-B0B9-C29A970C9A42} = {B78A40C3-FCF6-42EF-9BC8-757C27E60395}
+		{B01F33CA-A578-4AC9-93A3-DEB5EC1DA836} = {B78A40C3-FCF6-42EF-9BC8-757C27E60395}
+		{B266A10D-91B9-4388-8A98-D0A70F213F94} = {B78A40C3-FCF6-42EF-9BC8-757C27E60395}
+		{34EC53A4-CD12-4488-8F30-558CD2FCAC0A} = {B01F33CA-A578-4AC9-93A3-DEB5EC1DA836}
+		{BE1930CF-278F-4DFD-A02A-332E9C17057C} = {54C918D3-F217-460D-B0B9-C29A970C9A42}
+		{E79C820E-0D24-4846-9719-61BE851870EE} = {B266A10D-91B9-4388-8A98-D0A70F213F94}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0B37BE2-7396-444E-A252-DA8BC5386478}
+	EndGlobalSection
+EndGlobal
